@@ -1,0 +1,33 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\vhci.obj \
+ $(OBJ_PATH)\$O\dbgcode.obj \
+ $(OBJ_PATH)\$O\dbgcommon.obj \
+ $(OBJ_PATH)\$O\devconf.obj \
+ $(OBJ_PATH)\$O\pdu.obj \
+ $(OBJ_PATH)\$O\usbd_helper.obj \
+ $(OBJ_PATH)\$O\usbreq.obj \
+ $(OBJ_PATH)\$O\vhci_dbg.obj \
+ $(OBJ_PATH)\$O\vhci_devconf.obj \
+ $(OBJ_PATH)\$O\vhci_ioctl.obj \
+ $(OBJ_PATH)\$O\vhci_pdo.obj \
+ $(OBJ_PATH)\$O\vhci_plugin.obj \
+ $(OBJ_PATH)\$O\vhci_pnp.obj \
+ $(OBJ_PATH)\$O\vhci_power.obj \
+ $(OBJ_PATH)\$O\vhci_proto.obj \
+ $(OBJ_PATH)\$O\vhci_read.obj \
+ $(OBJ_PATH)\$O\vhci_write.obj \
+ $(OBJ_PATH)\$O\wmi.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=d:\7600.16385.0
+OBJECT_ROOT=d:\7600.16385.0
+MAKEDIR_LOWERCASE=e:\myproj~1\usbip\usbip
+OBJ_PATH=e:\myproj~1\usbip\usbip
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

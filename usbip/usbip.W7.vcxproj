@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="W7 checked|Win32">
+      <Configuration>W7 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7 checked|x64">
+      <Configuration>W7 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7 free|Win32">
+      <Configuration>W7 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7 free|x64">
+      <Configuration>W7 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7I64 checked|Win32">
+      <Configuration>W7I64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7I64 checked|x64">
+      <Configuration>W7I64 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7I64 free|Win32">
+      <Configuration>W7I64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7I64 free|x64">
+      <Configuration>W7I64 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH checked|Win32">
+      <Configuration>W7LH checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH checked|x64">
+      <Configuration>W7LH checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH free|Win32">
+      <Configuration>W7LH free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LH free|x64">
+      <Configuration>W7LH free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHI64 checked|Win32">
+      <Configuration>W7LHI64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHI64 checked|x64">
+      <Configuration>W7LHI64 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHI64 free|Win32">
+      <Configuration>W7LHI64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHI64 free|x64">
+      <Configuration>W7LHI64 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHX64 checked|Win32">
+      <Configuration>W7LHX64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHX64 checked|x64">
+      <Configuration>W7LHX64 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHX64 free|Win32">
+      <Configuration>W7LHX64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7LHX64 free|x64">
+      <Configuration>W7LHX64 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET checked|Win32">
+      <Configuration>W7NET checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET checked|x64">
+      <Configuration>W7NET checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET free|Win32">
+      <Configuration>W7NET free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NET free|x64">
+      <Configuration>W7NET free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETI64 checked|Win32">
+      <Configuration>W7NETI64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETI64 checked|x64">
+      <Configuration>W7NETI64 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETI64 free|Win32">
+      <Configuration>W7NETI64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETI64 free|x64">
+      <Configuration>W7NETI64 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETX64 checked|Win32">
+      <Configuration>W7NETX64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETX64 checked|x64">
+      <Configuration>W7NETX64 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETX64 free|Win32">
+      <Configuration>W7NETX64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7NETX64 free|x64">
+      <Configuration>W7NETX64 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7X64 checked|Win32">
+      <Configuration>W7X64 checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7X64 checked|x64">
+      <Configuration>W7X64 checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7X64 free|Win32">
+      <Configuration>W7X64 free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7X64 free|x64">
+      <Configuration>W7X64 free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP checked|Win32">
+      <Configuration>W7XP checked</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP checked|x64">
+      <Configuration>W7XP checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP free|Win32">
+      <Configuration>W7XP free</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="W7XP free|x64">
+      <Configuration>W7XP free</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4AE48593-C4E7-46DA-A01C-6F17E765BB2E}</ProjectGuid>
+    <RootNamespace>usbip.W7</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETX64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETX64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETI64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETI64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHX64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHX64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHI64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHI64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7I64 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7I64 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7NET checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7LHI64 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7X64 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7NET free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7XP checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7X64 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7NETX64 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7NETI64 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7LH checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7LHI64 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7NETI64 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7I64 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7I64 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7NETX64 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7LHX64 free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7XP free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7LH free|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='W7LHX64 checked|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NETX64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NETX64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NETI64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NETI64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LHX64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LHX64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LHI64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LHI64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7I64 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7I64 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="usbip.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.28127.55</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0601;NTDDI_VERSION=0x06010000;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7I64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7I64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7I64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0601;NTDDI_VERSION=0x06010000;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7I64 checked|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7I64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7I64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7X64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7X64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0601;NTDDI_VERSION=0x06010000;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7X64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7X64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0601;NTDDI_VERSION=0x06010000;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7LH free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7LH free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0600;NTDDI_VERSION=0x06000100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LH checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7LH checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7LH checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHI64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7LHI64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7LHI64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0600;NTDDI_VERSION=0x06000100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHI64 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7LHI64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7LHI64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHX64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7LHX64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7LHX64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0600;NTDDI_VERSION=0x06000100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7LHX64 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7LHX64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7LHX64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0600;NTDDI_VERSION=0x06000100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7NET free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7NET free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0502;NTDDI_VERSION=0x05020100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NET checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7NET checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7NET checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETI64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7NETI64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7NETI64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0502;NTDDI_VERSION=0x05020100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETI64 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7NETI64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7NETI64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETX64 free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7NETX64 free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7NETX64 free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0502;NTDDI_VERSION=0x05020100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7NETX64 checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7NETX64 checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7NETX64 checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0502;NTDDI_VERSION=0x05020100;_WIN64;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP free|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7XP free .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7XP free . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=0;WINVER=0x0501;NTDDI_VERSION=0x05010200;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7XP checked|Win32'">
+    <IntDir>.\</IntDir>
+    <NMakeBuildCommandLine>$(DDKBUILD_PATH) -W7XP checked .</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>$(DDKBUILD_PATH) -W7XP checked . -cZ</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakePreprocessorDefinitions>DBG=1;WINVER=0x0501;NTDDI_VERSION=0x05010200;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(W7BASE)\inc\ddk\;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='W7X64 checked|x64'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>.\</IntDir>
+    <ExecutablePath>D:\;$(ExecutablePath)$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dbgcode.c" />
+    <ClCompile Include="dbgcommon.c" />
+    <ClCompile Include="devconf.c" />
+    <ClCompile Include="pdu.c" />
+    <ClCompile Include="usbd_helper.c" />
+    <ClCompile Include="usbreq.c" />
+    <ClCompile Include="vhci.c" />
+    <ClCompile Include="vhci_dbg.c" />
+    <ClCompile Include="vhci_devconf.c" />
+    <ClCompile Include="vhci_ioctl.c" />
+    <ClCompile Include="vhci_pdo.c" />
+    <ClCompile Include="vhci_plugin.c" />
+    <ClCompile Include="vhci_pnp.c" />
+    <ClCompile Include="vhci_power.c" />
+    <ClCompile Include="vhci_proto.c" />
+    <ClCompile Include="vhci_read.c" />
+    <ClCompile Include="vhci_write.c" />
+    <ClCompile Include="Wmi.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basetype.h" />
+    <ClInclude Include="dbgcode.h" />
+    <ClInclude Include="dbgcommon.h" />
+    <ClInclude Include="devconf.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="pdu.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="usbd_helper.h" />
+    <ClInclude Include="usbip_proto.h" />
+    <ClInclude Include="usbip_stub_api.h" />
+    <ClInclude Include="usbip_vhci_api.h" />
+    <ClInclude Include="usbreq.h" />
+    <ClInclude Include="usb_cspkt.h" />
+    <ClInclude Include="vhci.h" />
+    <ClInclude Include="vhci_dbg.h" />
+    <ClInclude Include="vhci_devconf.h" />
+    <ClInclude Include="vhci_pnp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile" />
+    <None Include="sources" />
+    <None Include="usbip.vsprops" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

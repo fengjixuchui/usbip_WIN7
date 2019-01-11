@@ -1,0 +1,8 @@
+1>errors in directory e:\myproj~1\usbip\usbip
+1>e:\myproject\usbip\usbip\dbgcode.c(66) : error C2065: 'IRP_MN_DEVICE_ENUMERATED' : undeclared identifier
+1>e:\myproject\usbip\usbip\dbgcode.c(66) : error C2099: initializer is not a constant
+1>e:\myproject\usbip\usbip\vhci_dbg.c(30) : error C2065: 'IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS' : undeclared identifier
+1>e:\myproject\usbip\usbip\vhci_dbg.c(30) : error C2099: initializer is not a constant
+1>e:\myproject\usbip\usbip\vhci_pdo.c(1264) : error C2065: 'IRP_MN_DEVICE_ENUMERATED' : undeclared identifier
+1>e:\myproject\usbip\usbip\vhci_pdo.c(1264) : error C2051: case expression not constant
+1>link : error LNK1181: cannot open input file 'e:\myproj~1\usbip\usbip\objchk_wxp_x86\i386\dbgcode.obj'

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2e9aef90-b4db-4584-b0cc-6b7a49c1c857}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;asm;mc</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c724e4b8-1868-48be-bee0-d1eda625c296}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c825a2da-21b2-47d7-81ea-48f9dc3707c4}</UniqueIdentifier>
+      <Extensions>rc;mc;ico;cur;bmp;dlg;rc2</Extensions>
+    </Filter>
+    <Filter Include="Special Files">
+      <UniqueIdentifier>{763cd548-407f-466d-9d95-638eaf12b50d}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dbgcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dbgcommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="devconf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pdu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usbd_helper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usbreq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_dbg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_devconf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_ioctl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_pdo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_pnp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_power.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_proto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_read.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vhci_write.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wmi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="devconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pdu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usb_cspkt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usbd_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usbip_proto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usbip_stub_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usbip_vhci_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usbreq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vhci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vhci_dbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vhci_devconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vhci_pnp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile">
+      <Filter>Special Files</Filter>
+    </None>
+    <None Include="sources">
+      <Filter>Special Files</Filter>
+    </None>
+    <None Include="usbip.vsprops">
+      <Filter>Special Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

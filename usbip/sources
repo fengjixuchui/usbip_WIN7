@@ -1,0 +1,37 @@
+TARGETNAME=usbip_vhci
+TARGETTYPE=DRIVER
+
+#INCLUDES = ..\lib \
+#..\include \
+		   
+
+#NTTARGETFILE0=$(OBJ_PATH)\$(O)\busenum.bmf
+
+
+TARGETLIBS=  $(DDK_LIB_PATH)\wdmsec.lib \
+	     $(DDK_LIB_PATH)\ntstrsafe.lib \
+		 $(DDK_LIB_PATH)\wdmsec.lib  \
+		 $(DDK_LIB_PATH)\usbd.lib
+		 
+
+SOURCES= vhci.c  \
+         dbgcode.c \
+         dbgcommon.c \
+		 devconf.c \
+         pdu.c \
+		 usbd_helper.c  \
+		 usbreq.c \
+		 vhci_dbg.c\
+		 vhci_devconf.c\
+		 vhci_ioctl.c \
+		 vhci_pdo.c \
+		 vhci_plugin.c \
+		 vhci_pnp.c \
+		 vhci_power.c \
+		 vhci_proto.c \
+		 vhci_read.c \
+		 vhci_write.c \
+		 Wmi.c
+		 
+
+#_NT_TARGET_VERSION=$(_NT_TARGET_VERSION_WINXP)
